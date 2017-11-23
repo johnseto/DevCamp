@@ -419,7 +419,7 @@ AzureAD can handle authentication for web applications. First we will create a n
 
     ![image](./media/2017-21-06_10_07_00.png)
 
-1. Paste the following code to the `Views` -> `Shared` -> `_LoginPartial.cs` file to add links that will handle signing in/out and profile pages:
+1. Paste the following code to the `Views` -> `Shared` -> `_LoginPartial.cshtml` file to add links that will handle signing in/out and profile pages:
 
     ```html
     @if (Request.IsAuthenticated)
